@@ -12,6 +12,7 @@
 		13ADF3CF2844F8F8002F0374 /* TaskList_Lesson_2_13.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13ADF3CD2844F8F8002F0374 /* TaskList_Lesson_2_13.xcdatamodeld */; };
 		13ADF3D12844F8F9002F0374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13ADF3D02844F8F9002F0374 /* Assets.xcassets */; };
 		13ADF3D42844F8F9002F0374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13ADF3D22844F8F9002F0374 /* LaunchScreen.storyboard */; };
+		13ADF3DC2844FDF7002F0374 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ADF3DB2844FDF7002F0374 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		13ADF3D02844F8F9002F0374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13ADF3D32844F8F9002F0374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13ADF3D52844F8F9002F0374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13ADF3DB2844FDF7002F0374 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				13ADF3C42844F8F8002F0374 /* AppDelegate.swift */,
 				13ADF3C82844F8F8002F0374 /* TaskListViewController.swift */,
+				13ADF3DB2844FDF7002F0374 /* TaskViewController.swift */,
 				13ADF3D02844F8F9002F0374 /* Assets.xcassets */,
 				13ADF3D22844F8F9002F0374 /* LaunchScreen.storyboard */,
 				13ADF3D52844F8F9002F0374 /* Info.plist */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13ADF3C92844F8F8002F0374 /* TaskListViewController.swift in Sources */,
+				13ADF3DC2844FDF7002F0374 /* TaskViewController.swift in Sources */,
 				13ADF3CF2844F8F8002F0374 /* TaskList_Lesson_2_13.xcdatamodeld in Sources */,
 				13ADF3C52844F8F8002F0374 /* AppDelegate.swift in Sources */,
 			);
