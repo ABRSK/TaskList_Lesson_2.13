@@ -109,6 +109,7 @@ extension TaskListViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
         showAlert(with: "Edit task", and: "What are you up to?", and: taskList[indexPath.row].title ?? "Task name")
     }
 }
